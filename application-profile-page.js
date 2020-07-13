@@ -1,1 +1,1 @@
-alert("hello from the git script that i just updated one more time")
+alert("hello from the git script that i just updated one more time again for the pages")
