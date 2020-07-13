@@ -1,0 +1,91 @@
+.confiFormsFormBorder {
+    margin: unset !important;
+    border: unset !important;
+    border-radius: unset !important;
+}
+
+a.aui-button.aui-style-default.aui-dropdown2-trigger {
+    display: none !important;
+}
+
+.confiFormsFormFooter {
+    background: none !important; 
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+
+button.my-create-dialog-create-button.aui-button.aui-button-primary.save-cf-btn {
+    border-radius: 3px;
+    background-color: #1c948d;
+	display: none;
+}
+
+
+input[type="radio" i] {
+    display: none !important;
+}
+
+.table-wrap {
+    overflow-x: unset !important;
+    }
+
+
+
+input#i_statusRef-approved label {
+    border-radius: 3px;
+    background-color: #1c948d;
+}
+
+
+label[for=i_statusRef-approved] {
+    border-radius: 3px;
+    background-color: #1c948d;
+    padding: 10px 20px;
+    font-family: Raleway !important;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff !important;
+    margin: 20px;
+}
+
+label[for=i_statusRef-rejected] {
+    border-radius: 3px;
+    background-color: #ff4947;
+    padding: 10px 20px;
+    font-family: Raleway !important;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+div#i_confiform_registration_panel_fae2f98e8642a5137465cb6c4205823f {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.confiFormsFormContent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+input[type="radio"]:checked+label {
+    border: 2px solid black;
+}
+
+
+span#i_holdingrow_statusRef label {
+    cursor: pointer;
+}
+
+div#current-status {
+    font-family: Raleway;
+    font-size: 23px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    color: #4e5868;
+}
