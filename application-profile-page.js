@@ -1,1 +1,1 @@
-alert("hello from the git script that i just updated one more time again for the pages an here is antoher update push just for the heck of it")
+alert("reverting to a simple hello message")
