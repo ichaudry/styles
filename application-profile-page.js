@@ -1,1 +1,1 @@
-alert("hello from the git script")
+alert("hello from the git script that i just updated")
