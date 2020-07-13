@@ -1,1 +1,1 @@
-alert("reverting to a simple hello message tha is about turn complicated and i hacked it")
+alert("reverting to a simple hello message tha is about turn complicated and i hacked it and now I am going to rest my case")
