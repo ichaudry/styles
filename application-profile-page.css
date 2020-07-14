@@ -104,7 +104,7 @@ div#current-status {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 40vw; /* Location of the box */
+    padding-top: 30vw; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -121,7 +121,7 @@ div#current-status {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 40%;
   }
   
   /* The Close Button */
@@ -138,3 +138,4 @@ div#current-status {
     text-decoration: none;
     cursor: pointer;
   }
+
