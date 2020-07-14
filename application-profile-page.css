@@ -48,6 +48,7 @@ label[for=i_statusRef-approved] {
     font-weight: bold;
     color: #ffffff !important;
     margin: 20px;
+    display: none;
 }
 
 label[for=i_statusRef-publish] {
@@ -59,6 +60,7 @@ label[for=i_statusRef-publish] {
     font-weight: bold;
     color: #ffffff !important;
     margin: 20px;
+    display: none;
 }
 
 label[for=i_statusRef-rejected] {
@@ -69,6 +71,8 @@ label[for=i_statusRef-rejected] {
     font-size: 15px;
     font-weight: bold;
     color: #ffffff !important;
+    margin: 20px;
+    display: none;
 }
 
 label[for=i_statusRef-review] {
@@ -79,6 +83,8 @@ label[for=i_statusRef-review] {
     font-size: 15px;
     font-weight: bold;
     color: #ffffff !important;
+    margin: 20px;
+    display: none;
 }
 
 div#i_confiform_registration_panel_fae2f98e8642a5137465cb6c4205823f {
