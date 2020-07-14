@@ -9,7 +9,8 @@ $( document ).ready(function() {
 	$.get(`/ajax/confiforms/rest/filter.action?pageId=30541161&f=bLabsRegister&q=id:${formId}`, function(data, status){
     currentStatus = data.list.entry[0].fields.status
     let statusDiv = document.getElementById('current-status');
-    statusDiv.insertAdjacentHTML('beforeend', `<div id="current-status-color">${currentStatus}</div>`);
-    alert(`<div id="current-status-color">${currentStatus}</div>`)
-  });
-});
+    statusDiv.insertAdjacentHTML('beforeend', `<div id="current-status-color">${currentStatus}</div>`);   
+  })
+
+  alert(`<div id="current-status-color">${currentStatus}</div>`)
+})
