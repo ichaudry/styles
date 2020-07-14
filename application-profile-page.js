@@ -35,3 +35,36 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+//Set buttons to display
+let review = document.querySelector("label[for=i_statusRef-review]")
+let approve = document.querySelector("label[for=i_statusRef-approved]")
+let publish = document.querySelector("label[for=i_statusRef-published]")
+let reject = document.querySelector("label[for=i_statusRef-rejected]")
+
+if(currentStatus === 'approved'){
+  statusColor.style.color = "#1c948d";
+  review.innerHTML = "Unpublish"
+  publish.style.display = "unset"
+  review.style.display = "unset"	
+}
+
+else if(currentStatus === 'rejected'){
+  statusColor.style.color = "#ff4947";
+  review.style.display = "unset"
+  approve.style.display = "unset"
+}
+else if(currentStatus === 'published'){
+  statusColor.style.color = "#1c948d";
+  review.innerHTML = "unpublish"
+  review.style.display = "unset"
+}
+else if(currentStatus === 'review'){
+  statusColor.style.color = "#1c948d";
+  approve.style.display = "unset"
+  reject.style.display = "unset"
+}
+else{
+  statusColor.style.color = "#4e5868";
+}
