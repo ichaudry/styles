@@ -51,7 +51,7 @@ label[for=i_statusRef-approved] {
     display: none;
 }
 
-label[for=i_statusRef-publish] {
+label[for=i_statusRef-published] {
     border-radius: 3px;
     background-color: #1c948d;
     padding: 10px 20px;
