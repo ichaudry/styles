@@ -175,3 +175,7 @@ div#current-status {
 #rw_category_menu.rw_theme_traditional ul.rw_category_items li.rw_active a {
     background: unset;
 }
+
+div#main-content{
+    padding-top: 40px;
+}
