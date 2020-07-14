@@ -12,10 +12,6 @@ $(document).ready(function() {
 })
 
 
-
-    
-
-
 $("input[type='radio']").click(function(){
     modal.style.display = "block";
 })

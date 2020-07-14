@@ -141,3 +141,15 @@ div#current-status {
     margin-bottom: 50px;
 }
 
+#rw_category_menu.rw_theme_traditional ul.rw_category_items li.rw_active a, #rw_category_menu.rw_theme_traditional ul.rw_category_items li.rw_active a:hover {
+    background: unset;
+}
+
+
+#rw_category_menu.rw_theme_traditional ul.rw_category_items li.rw_active a {
+    background: unset;
+}
+
+#rw_wrapper #rw_theme_header .rw_row_1 .rw_header_left #rw_logo_container a img {
+    opacity: -0.8;
+   }
