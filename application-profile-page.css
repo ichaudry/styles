@@ -28,6 +28,7 @@ input[type="radio" i] {
 
 .table-wrap {
     overflow-x: unset !important;
+    margin: unset;
     }
 
 
@@ -68,6 +69,7 @@ div#i_confiform_registration_panel_fae2f98e8642a5137465cb6c4205823f {
 .confiFormsFormContent {
     display: flex;
     justify-content: flex-end;
+    justify-content: space-between;
 }
 
 input[type="radio"]:checked+label {
@@ -88,4 +90,10 @@ div#current-status {
     line-height: 1.22;
     letter-spacing: normal;
     color: #4e5868;
+}
+
+div#current-status {
+    display:none;
+    flex-direction: column;
+    justify-content: center;
 }
