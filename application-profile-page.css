@@ -50,6 +50,17 @@ label[for=i_statusRef-approved] {
     margin: 20px;
 }
 
+label[for=i_statusRef-publish] {
+    border-radius: 3px;
+    background-color: #1c948d;
+    padding: 10px 20px;
+    font-family: Raleway !important;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff !important;
+    margin: 20px;
+}
+
 label[for=i_statusRef-rejected] {
     border-radius: 3px;
     background-color: #ff4947;
@@ -144,7 +155,6 @@ div#current-status {
 #rw_category_menu.rw_theme_traditional ul.rw_category_items li.rw_active a, #rw_category_menu.rw_theme_traditional ul.rw_category_items li.rw_active a:hover {
     background: unset;
 }
-
 
 #rw_category_menu.rw_theme_traditional ul.rw_category_items li.rw_active a {
     background: unset;
