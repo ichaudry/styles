@@ -9,6 +9,7 @@ $(document).ready(function() {
     let submitBtn = document.querySelector("button.my-create-dialog-create-button.aui-button.aui-button-primary.save-cf-btn")
     modalContent.insertAdjacentElement('beforeend',submitBtn)
     submitBtn.style.display = 'unset'
+
 })
 
 
