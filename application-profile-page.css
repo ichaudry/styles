@@ -71,6 +71,16 @@ label[for=i_statusRef-rejected] {
     color: #ffffff !important;
 }
 
+label[for=i_statusRef-review] {
+    border-radius: 3px;
+    background-color: #ff4947;
+    padding: 10px 20px;
+    font-family: Raleway !important;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
 div#i_confiform_registration_panel_fae2f98e8642a5137465cb6c4205823f {
     display: flex;
     flex-direction: column;
