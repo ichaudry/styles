@@ -72,10 +72,6 @@ div#i_confiform_registration_panel_fae2f98e8642a5137465cb6c4205823f {
     justify-content: space-between;
 }
 
-input[type="radio"]:checked+label {
-    border: 2px solid black;
-}
-
 
 span#i_holdingrow_statusRef label {
     cursor: pointer;
