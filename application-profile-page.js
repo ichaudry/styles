@@ -3,12 +3,18 @@ $(document).ready(function() {
     var title = document.getElementById("current-status")
     formContent.insertAdjacentElement('afterbegin',title)
     title.style = "display: flex";
+
+    //Move form submit button inside modal
+    let modalContent = document.getElementById("confirmation-modal-content")
+    let submitBtn = document.querySelector("button.my-create-dialog-create-button.aui-button.aui-button-primary.save-cf-btn")
+    modalContent.insertAdjacentElement('beforeend',submitBtn)
+    submitBtn.style.display = 'unset'
 })
 
-// Shows submit button on radio input change
-let submitBtn = document.querySelector("button.my-create-dialog-create-button.aui-button.aui-button-primary.save-cf-btn")
+
+
     
-// submitBtn.style.display = 'unset'
+
 
 $("input[type='radio']").click(function(){
     modal.style.display = "block";
