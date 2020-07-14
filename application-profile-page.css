@@ -179,3 +179,20 @@ div#current-status {
 div#main-content{
     padding-top: 40px;
 }
+
+#application-button .my-button {
+    border-radius: 3px;
+    border: solid 0.5px #1c948d;
+    font-family: Raleway;
+    font-size: 13px;
+    color: #1c948d;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+
+div#application-button {
+    flex-direction: unset;
+    width: unset;
+    height: unset;
+    display: none;
+}
