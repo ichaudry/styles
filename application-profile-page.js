@@ -18,15 +18,15 @@ $("input[type='radio']").click(function(){
 })
 
 $( "#i_statusRef-approved" ).click(function() {
-  alert( "approve Handler for .click() called." );
+  document.getElementById("confirmation-modal-text").innerHTML = "Are you sure you want to approve this application?";
 });
 
 $( "#i_statusRef-rejected" ).click(function() {
-  alert( "rejected Handler for .click() called." );
+  document.getElementById("confirmation-modal-text").innerHTML = "Are you sure you want to reject this application?";
 });
 
 $( "#i_statusRef-review" ).click(function() {
-  alert( "review Handler for .click() called." );
+  document.getElementById("confirmation-modal-text").innerHTML = "Are you sure you want to put this application into review pile?";
 });
 
 
