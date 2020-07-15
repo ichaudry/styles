@@ -17,6 +17,19 @@ $("input[type='radio']").click(function(){
     modal.style.display = "block";
 })
 
+$( "#i_statusRef-approved" ).click(function() {
+  alert( "approve Handler for .click() called." );
+});
+
+$( "#i_statusRef-rejected" ).click(function() {
+  alert( "rejected Handler for .click() called." );
+});
+
+$( "#i_statusRef-review" ).click(function() {
+  alert( "review Handler for .click() called." );
+});
+
+
 // Get the modal
 var modal = document.getElementById("confirmation-modal");
 
